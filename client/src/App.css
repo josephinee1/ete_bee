@@ -1,0 +1,28 @@
+/* ################################################################################### */
+/* scroll bar */
+/* ################################################################################### */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Sofia+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sofia+Sans&display=swap');
+
+
+:root {
+  --font: 'Pacifico', cursive;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0); 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

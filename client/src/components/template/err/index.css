@@ -1,0 +1,50 @@
+.err__outer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./../../assets/image/change.jpg');
+}
+
+.err__inner__head {
+    width: 50%;
+    height: fit-content;
+    font-size: 6rem;
+    font-weight: 800;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: cyan;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.err__inner {
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    background-image: url(https://cdn.dribbble.com/users/1541584/screenshots/7188742/media/dc86bc73f133d940b2e330d2ef4df58d.gif);
+}
+
+.err__inner__button {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
